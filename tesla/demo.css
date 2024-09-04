@@ -1,0 +1,48 @@
+body{
+  background-color: bisque;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color:red;
+}
+
+button:active{
+  background-color: black;
+}
+ /* button:focus{
+  background-color: green;
+ } */
+
+ a:visited{
+  background-color: black;
+  
+ }
+ p::before {
+  content: " "; /* Adds an arrow before every paragraph */
+}
+
+p::first-letter {
+  font-size: 2em; /* Enlarges the first letter of the paragraph */
+  color: rgb(21, 25, 148);
+}
+
+p::first-line {
+  font-weight: bold; /* Makes the first line bold */
+}
+
+p:n {
+  background: yellow; /* Changes the background color of selected text */
+  color: black;
+}
+p::marker {
+  color: blue; /* Changes the color of list markers */
+}
+img{}
+
+.table{
+  border: 5px solid blue;
+}
+.table:hover{
+  border-color: red;
+}

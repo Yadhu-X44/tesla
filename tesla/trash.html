@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla.com</title>
+  <link rel="stylesheet" href="tesla.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="left-section"><img class="tesla-logo" src="OIP-dBeoP4262G-transformed.png"></div>
+    <div class="middle-section">
+      <div>Vehicle</div>
+      <div>Energy</div>
+      <div>Charging</div>
+      <div>Discover</div>
+      <div>shop</div>
+    </div>
+    <div class="right-section">
+      <img class="question-icon" src="question.png">
+      <img class="globe-icon" src="globe.png">
+      <img class="user-icon" src="user.png">
+    </div>
+  </div>
+  <div class="container">
+    <div class="first-slide">
+      <img class="img1" src="first-slide.avif" alt="">
+      <h1 >Model 3</h1>
+      <a href="#"  class="h3">1.99% APR Financing Ending August 31</a>
+      <h4>From $34,990</h4>
+     <div class="buttons">
+      <button class="order-button" >Order Now</button>
+      <button class="demo-button" >Demo Drive</button>
+     </div> 
+    </div>
+
+    <div class="container">
+      <div class="second-slide">
+        <img class="img1" src="slide-2.img" alt="">
+        <h1 >Model 3</h1>
+        <a href="#"  class="h3">1.99% APR Financing Ending August 31</a>
+        <h4>From $34,990</h4>
+       <div class="buttons">
+        <button class="order-button" >Order Now</button>
+        <button class="demo-button" >Demo Drive</button>
+       </div> 
+      </div>
+</div>
+</body>
+</html>
+
+body{
+  margin: 0px;
+}
+
+.first-slide{
+  background-image: url(first-slide.avif);
+  background-repeat: no-repeat ;
+  background-size:cover ;
+}
+
+.first-slide h1,h3,h4{
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  margin: 0px;
+  color: black;
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+.first-slide h1{
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  right: 50%;
+  line-height:10 ;
+  text-wrap: nowrap;
+  font-size:  53px;
+  font-weight: 600;
+  color: white;
+}
+.first-slide .h3{
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+  transform: translate(-50%,-50%);
+  line-height:10 ;
+  text-wrap: nowrap;
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+ text-decoration: underline 1px ;
+ text-underline-offset: 0.3em;
+}
+
+.first-slide h4{
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  right: 50%;
+  line-height:10 ;
+  text-wrap: nowrap;
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+.tesla-logo{
+  width: 147px;
+  margin: 0px;
+  filter: invert(100%);
+  margin-left:35px;
+  margin-top: 5px;
+}
+.header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+
+.left-section {
+
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  margin-right: 25px;
+  filter: invert(100%);
+}
+
+.middle-section{
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  color: #fff;
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.question-icon , .globe-icon , .user-icon{
+  width: 20px;
+}
+.order-button{
+  background-color: rgb(62, 106, 225);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 265px;
+  margin-right: 15px;
+  font-weight: 700;
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+  
+}
+.demo-button{
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 265px;
+  font-weight: 700;
+  color: #191919;
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+  font-size: 13px;;
+  
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+  
+}
